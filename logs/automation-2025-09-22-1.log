@@ -1,0 +1,181 @@
+2025-09-22 10:03:00.132 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 10:03:00.163 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 10:03:00.729 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 10:03:01.541 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758515580734
+2025-09-22 10:03:02.058 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 10:03:02.070 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 10:03:02.076 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 10:03:06.479 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 10:03:06.485 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 10:03:08.149 [main] INFO  testCase.TC02_login - Login attempted with username: user1758515580734
+2025-09-22 10:03:08.163 [main] INFO  testCase.TC02_login - Login successful, Accounts Overview found
+2025-09-22 10:03:08.163 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 10:03:12.821 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 10:03:12.827 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 10:19:05.619 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 10:19:05.675 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 10:19:06.193 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 10:19:07.139 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758516546193
+2025-09-22 10:19:07.568 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 10:19:07.584 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 10:19:07.584 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 10:19:07.596 [main] INFO  testCase.TC01_Register - ===== Starting Login Test =====
+2025-09-22 10:19:17.626 [main] INFO  testCase.TC01_Register - ===== Starting Open New Account Test =====
+2025-09-22 10:45:58.310 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 10:45:58.368 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 10:45:58.993 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 10:45:59.879 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758518158993
+2025-09-22 10:46:00.255 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 10:46:00.416 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 10:46:00.417 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 10:46:00.435 [main] INFO  testCase.TC01_Register - ===== Starting Login Test =====
+2025-09-22 10:46:10.486 [main] INFO  testCase.TC01_Register - ===== Starting Open New Account Test =====
+2025-09-22 10:49:47.589 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 10:49:47.608 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 10:49:51.204 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 10:49:52.952 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758518391204
+2025-09-22 10:49:53.912 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 10:49:53.920 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 10:49:53.920 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 10:49:59.358 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 10:49:59.362 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 10:50:00.769 [main] INFO  testCase.TC02_login - Login attempted with username: user1758518391204
+2025-09-22 10:50:00.770 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 10:50:05.479 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 10:50:05.494 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 10:50:06.597 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 10:50:07.096 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 10:50:07.098 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 10:50:07.357 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 10:50:07.357 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 10:50:07.694 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 17562
+2025-09-22 10:50:07.694 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 10:50:07.783 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 10:50:07.783 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 10:50:08.432 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 17673
+2025-09-22 10:50:08.432 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-22 10:53:10.239 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 10:53:10.257 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 10:53:10.782 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 10:53:11.779 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758518590785
+2025-09-22 10:53:12.268 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 10:53:12.367 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 10:53:12.368 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 10:53:16.676 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 10:53:16.680 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 10:53:18.210 [main] INFO  testCase.TC02_login - Login attempted with username: user1758518590785
+2025-09-22 10:53:18.211 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-22 10:53:18.211 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 10:53:23.342 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 10:53:23.353 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 10:53:25.516 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 10:53:26.054 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 10:53:26.054 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 10:53:26.220 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 10:53:26.220 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 10:53:26.453 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 18561
+2025-09-22 10:53:26.453 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 10:53:26.547 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 10:53:26.547 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 10:53:27.143 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 18672
+2025-09-22 10:53:27.143 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-22 14:08:01.290 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 14:08:01.311 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 14:08:03.278 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 14:08:04.381 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758530283278
+2025-09-22 14:08:05.614 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 14:08:05.631 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 14:08:05.639 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 14:08:08.505 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 14:08:08.516 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 14:08:12.032 [main] INFO  testCase.TC02_login - Login attempted with username: user1758530283278
+2025-09-22 14:08:12.034 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-22 14:08:12.034 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 14:08:16.284 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 14:08:16.289 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 14:08:17.397 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 14:08:17.873 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 14:08:17.873 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 14:08:18.041 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 14:08:18.041 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 14:08:18.280 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 30216
+2025-09-22 14:08:18.280 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 14:08:18.392 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 14:08:18.392 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 14:08:18.999 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 30660
+2025-09-22 14:08:18.999 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-22 14:19:57.036 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 14:19:57.053 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 14:19:59.669 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 14:20:00.472 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758530999669
+2025-09-22 14:20:01.769 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 14:20:01.798 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 14:20:01.798 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 14:20:06.694 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 14:20:06.699 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 14:20:08.242 [main] INFO  testCase.TC02_login - Login attempted with username: user1758530999669
+2025-09-22 14:20:08.244 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-22 14:20:08.244 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 14:20:13.128 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 14:20:13.140 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 14:20:14.271 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 14:20:14.791 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 14:20:14.791 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 14:20:14.954 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 14:20:14.954 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 14:20:15.189 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 15231
+2025-09-22 14:20:15.189 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 14:20:15.272 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 14:20:15.272 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 14:20:15.863 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 15675
+2025-09-22 14:20:15.863 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-22 20:51:11.910 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 20:51:11.937 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 20:51:12.209 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-22 20:51:12.231 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-22 20:51:12.554 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 20:51:12.947 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-22 20:51:13.667 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758554472554
+2025-09-22 20:51:13.868 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758554472947
+2025-09-22 20:51:14.071 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 20:51:14.156 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 20:51:14.156 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 20:51:14.373 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-22 20:51:14.387 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-22 20:51:14.387 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-22 20:51:19.458 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 20:51:19.463 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 20:51:19.639 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-22 20:51:19.639 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-22 20:51:21.049 [main] INFO  testCase.TC02_login - Login attempted with username: user1758554472947
+2025-09-22 20:51:21.051 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-22 20:51:21.051 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 20:51:21.081 [main] INFO  testCase.TC02_login - Login attempted with username: user1758554472554
+2025-09-22 20:51:21.081 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-22 20:51:21.081 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-22 20:51:25.686 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 20:51:25.701 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 20:51:28.485 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-22 20:51:28.501 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-22 20:51:29.450 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 20:51:30.123 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 20:51:30.123 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 20:51:30.357 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 20:51:30.357 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 20:51:30.548 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 15009
+2025-09-22 20:51:30.555 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 20:51:30.638 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 20:51:30.638 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 20:51:30.951 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-22 20:51:31.269 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 15120
+2025-09-22 20:51:31.269 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-22 20:51:31.541 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-22 20:51:31.541 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-22 20:51:31.989 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-22 20:51:31.991 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-22 20:51:32.462 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 14898
+2025-09-22 20:51:32.462 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-22 20:51:32.700 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-22 20:51:32.700 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-22 20:51:33.425 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 15231
+2025-09-22 20:51:33.425 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====

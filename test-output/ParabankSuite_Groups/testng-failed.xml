@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParabankSuite_Groups]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCase.TC01_Register">
+        <methods>
+          <include name="verifyuserRegistration"/>
+        </methods>
+      </class> <!-- testCase.TC01_Register -->
+      <class name="testCase.TC02_login">
+        <methods>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- testCase.TC02_login -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+  <test thread-count="5" name="RegressionTests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCase.TC04_AccountOverview">
+        <methods>
+          <include name="test_AccountOverview"/>
+        </methods>
+      </class> <!-- testCase.TC04_AccountOverview -->
+      <class name="testCase.TC08_Updatecontact">
+        <methods>
+          <include name="verifyUpdateContactInfo"/>
+        </methods>
+      </class> <!-- testCase.TC08_Updatecontact -->
+      <class name="testCase.TC05_Transferfund">
+        <methods>
+          <include name="test_TransferFunds"/>
+        </methods>
+      </class> <!-- testCase.TC05_Transferfund -->
+      <class name="testCase.TC03_OpenNewAccount">
+        <methods>
+          <include name="openNewAccount"/>
+        </methods>
+      </class> <!-- testCase.TC03_OpenNewAccount -->
+      <class name="testCase.TC06_Billpayment">
+        <methods>
+          <include name="test_BillPayment"/>
+        </methods>
+      </class> <!-- testCase.TC06_Billpayment -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [ParabankSuite_Groups] -->

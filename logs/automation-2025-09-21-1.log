@@ -1,0 +1,46 @@
+2025-09-21 14:33:43.865 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-21 14:33:43.893 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-21 14:33:44.485 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-21 14:33:45.271 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758445424486
+2025-09-21 14:33:45.711 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-21 14:33:45.726 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-21 14:33:45.727 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-21 14:33:50.443 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-21 14:33:50.450 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-21 14:33:50.824 [main] INFO  testCase.TC02_login - Login attempted with username: user1758445424486
+2025-09-21 14:35:34.272 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-21 14:35:34.302 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-21 14:35:34.858 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-21 14:35:35.655 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758445534860
+2025-09-21 14:35:36.005 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-21 14:35:36.102 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-21 14:35:36.102 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-21 14:35:40.820 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-21 14:35:40.830 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-21 14:35:40.929 [main] INFO  testCase.TC02_login - Login attempted with username: user1758445534860
+2025-09-21 14:54:08.160 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-21 14:54:08.180 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-21 14:54:10.502 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-21 14:54:11.297 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758446650502
+2025-09-21 14:54:11.663 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-21 14:54:11.756 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-21 14:54:11.756 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-21 14:54:15.898 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-21 14:54:15.905 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-21 14:54:17.389 [main] INFO  testCase.TC02_login - Login attempted with username: user1758446650502
+2025-09-21 14:54:17.406 [main] INFO  testCase.TC02_login - Login successful, Accounts Overview found
+2025-09-21 14:54:17.406 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-21 15:29:03.123 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-21 15:29:03.157 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-21 15:29:03.788 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-21 15:29:04.681 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1758448743788
+2025-09-21 15:29:05.664 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-21 15:29:05.679 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-21 15:29:05.679 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-21 15:29:10.059 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-21 15:29:10.066 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-21 15:29:12.572 [main] INFO  testCase.TC02_login - Login attempted with username: user1758448743788
+2025-09-21 15:29:12.596 [main] INFO  testCase.TC02_login - Login successful, Accounts Overview found
+2025-09-21 15:29:12.596 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-21 15:29:15.641 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-21 15:29:15.649 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====

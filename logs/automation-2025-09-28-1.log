@@ -1,0 +1,345 @@
+2025-09-28 10:50:27.443 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-28 10:50:27.481 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-28 10:50:29.198 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-28 10:50:30.026 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1759036829202
+2025-09-28 10:50:30.626 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-28 10:50:30.645 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-28 10:50:30.649 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-28 10:50:35.352 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-28 10:50:35.376 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-28 10:50:37.306 [main] INFO  testCase.TC02_login - Login attempted with username: user1759036829202
+2025-09-28 10:50:37.306 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-28 10:50:37.306 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-28 10:50:42.369 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-28 10:50:42.378 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-28 10:50:43.608 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-28 10:50:44.051 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-28 10:50:44.051 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-28 10:50:44.190 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-28 10:50:44.190 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-28 10:50:44.605 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 15897
+2025-09-28 10:50:44.605 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-28 10:50:44.737 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-28 10:50:44.737 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-28 10:50:45.341 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 16008
+2025-09-28 10:50:45.342 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-28 10:50:50.093 [main] INFO  testCase.TC04_AccountOverview - Browser launched and Parabank site opened
+2025-09-28 10:50:50.104 [main] INFO  testCase.TC04_AccountOverview -  Starting TC04_AccountOverview
+2025-09-28 10:50:51.344 [main] INFO  testCase.TC04_AccountOverview - Logged in before accessing Account Overview
+2025-09-28 10:50:51.622 [main] INFO  testCase.TC04_AccountOverview - Currently available accounts: 2
+2025-09-28 10:50:51.731 [main] INFO  testCase.TC04_AccountOverview - Account 1: 15897
+2025-09-28 10:50:51.731 [main] INFO  testCase.TC04_AccountOverview - Account 2: 16008
+2025-09-28 10:50:51.731 [main] INFO  testCase.TC04_AccountOverview - Account Overview test passed
+2025-09-28 10:50:51.731 [main] INFO  testCase.TC04_AccountOverview - Finished TC_AccountOverview 
+2025-09-28 10:50:56.946 [main] INFO  testCase.TC05_Transferfund - Browser launched and Parabank site opened
+2025-09-28 10:50:56.953 [main] INFO  testCase.TC05_Transferfund - ===== Starting Transfer Funds Test =====
+2025-09-28 10:50:58.169 [main] INFO  testCase.TC05_Transferfund - Logged in successfully
+2025-09-28 10:50:58.474 [main] INFO  testCase.TC05_Transferfund - From Account: 15897, To Account: 16008
+2025-09-28 10:50:58.955 [main] INFO  pageObjects.Transferfund - Navigated to Transfer Funds page
+2025-09-28 10:50:59.104 [main] INFO  pageObjects.Transferfund - Entered transfer amount: 20
+2025-09-28 10:50:59.308 [main] INFO  pageObjects.Transferfund - Selected From Account: 15897
+2025-09-28 10:50:59.455 [main] INFO  pageObjects.Transferfund - Selected To Account: 16008
+2025-09-28 10:50:59.554 [main] INFO  pageObjects.Transferfund - Clicked Transfer button
+2025-09-28 10:51:00.114 [main] INFO  pageObjects.Transferfund - Transfer success message displayed: true
+2025-09-28 10:51:00.121 [main] INFO  testCase.TC05_Transferfund - Transfer Funds Test Passed 
+2025-09-28 10:51:04.842 [main] INFO  testCase.TC06_Billpayment - Browser launched and Parabank site opened
+2025-09-28 10:51:04.844 [main] INFO  testCase.TC06_Billpayment - ===== Starting Bill Payment Test =====
+2025-09-28 10:51:06.035 [main] INFO  testCase.TC06_Billpayment - Logged in successfully
+2025-09-28 10:51:06.362 [main] INFO  testCase.TC06_Billpayment - Pay from Account: 15897
+2025-09-28 10:51:06.834 [main] INFO  pageObjects.BillPay - Navigated to Bill Pay page
+2025-09-28 10:51:07.030 [main] INFO  pageObjects.BillPay - Entered Payee Name: Ganesh U
+2025-09-28 10:51:07.183 [main] INFO  pageObjects.BillPay - Entered Address: 123 Street
+2025-09-28 10:51:07.314 [main] INFO  pageObjects.BillPay - Entered City: CityName
+2025-09-28 10:51:07.429 [main] INFO  pageObjects.BillPay - Entered State: StateName
+2025-09-28 10:51:07.535 [main] INFO  pageObjects.BillPay - Entered Zip: 123456
+2025-09-28 10:51:07.642 [main] INFO  pageObjects.BillPay - Entered Phone: 8547505599
+2025-09-28 10:51:07.764 [main] INFO  pageObjects.BillPay - Entered Account Number: 12345
+2025-09-28 10:51:07.890 [main] INFO  pageObjects.BillPay - Entered Verify Account: 12345
+2025-09-28 10:51:08.007 [main] INFO  pageObjects.BillPay - Entered Amount: 50
+2025-09-28 10:51:08.112 [main] INFO  pageObjects.BillPay - Selected From Account: 15897
+2025-09-28 10:51:08.112 [main] INFO  pageObjects.BillPay - Filled Bill Pay form
+2025-09-28 10:51:08.201 [main] INFO  pageObjects.BillPay - Clicked Send Payment button
+2025-09-28 10:51:08.758 [main] INFO  pageObjects.BillPay - Bill Payment completed successfully
+2025-09-28 10:51:08.758 [main] INFO  testCase.TC06_Billpayment - Bill Payment Test Passed
+2025-09-28 10:51:13.372 [main] INFO  testCase.TC07_FindTransactions - Browser launched and Parabank site opened
+2025-09-28 10:51:13.382 [main] INFO  testCase.TC07_FindTransactions - ===== Starting Find Transactions Test =====
+2025-09-28 10:51:14.655 [main] INFO  testCase.TC07_FindTransactions - Logged in successfully
+2025-09-28 10:51:15.142 [main] INFO  testCase.TC07_FindTransactions - Navigated to Find Transactions page
+2025-09-28 10:51:15.299 [main] INFO  testCase.TC07_FindTransactions - Selected account: 15897
+2025-09-28 10:51:15.501 [main] INFO  testCase.TC07_FindTransactions - Searched transaction by amount: 20
+2025-09-28 10:51:30.098 [main] INFO  testCase.TC08_Updatecontact - Browser launched and Parabank site opened
+2025-09-28 10:51:30.104 [main] INFO  testCase.TC08_Updatecontact - ===== Starting Update Contact Info Test =====
+2025-09-28 10:51:31.271 [main] INFO  testCase.TC08_Updatecontact - Logged in successfully
+2025-09-28 10:51:31.777 [main] INFO  testCase.TC08_Updatecontact - Navigated to Update Contact Info page
+2025-09-28 10:51:32.903 [main] INFO  testCase.TC08_Updatecontact - Entered new contact info
+2025-09-28 10:51:32.968 [main] INFO  testCase.TC08_Updatecontact - Clicked Update Profile
+2025-09-28 10:51:32.976 [main] INFO  testCase.TC08_Updatecontact - Update Contact Info Test Passed
+2025-09-28 10:51:32.976 [main] INFO  testCase.TC08_Updatecontact - ===== Update Contact Info Test Completed =====
+2025-09-28 10:51:37.746 [main] INFO  testCase.TC09_requestloan - Browser launched and Parabank site opened
+2025-09-28 10:51:37.756 [main] INFO  testCase.TC09_requestloan - ===== Starting Request Loan Test =====
+2025-09-28 10:51:38.909 [main] INFO  testCase.TC09_requestloan - Logged in successfully
+2025-09-28 10:51:39.445 [main] INFO  testCase.TC09_requestloan - Navigated to Request Loan Page
+2025-09-28 11:03:44.540 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-28 11:03:44.558 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-28 11:03:45.648 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-28 11:03:46.473 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1759037625648
+2025-09-28 11:03:46.952 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-28 11:03:46.969 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-28 11:03:46.969 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-28 11:03:51.864 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-28 11:03:51.870 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-28 11:03:53.339 [main] INFO  testCase.TC02_login - Login attempted with username: user1759037625648
+2025-09-28 11:03:53.339 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-28 11:03:53.339 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-28 11:03:58.051 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-28 11:03:58.064 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-28 11:03:59.394 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-28 11:03:59.861 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-28 11:03:59.861 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-28 11:04:00.020 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-28 11:04:00.025 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-28 11:04:00.315 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 16674
+2025-09-28 11:04:00.315 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-28 11:04:00.389 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-28 11:04:00.389 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-28 11:04:00.980 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 16785
+2025-09-28 11:04:00.980 [main] INFO  testCase.TC03_OpenNewAccount - Stored account in Testdata: account1=16785, account2=null
+2025-09-28 11:04:00.980 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-28 11:04:06.376 [main] INFO  testCase.TC04_AccountOverview - Browser launched and Parabank site opened
+2025-09-28 11:04:06.385 [main] INFO  testCase.TC04_AccountOverview -  Starting TC04_AccountOverview
+2025-09-28 11:04:07.692 [main] INFO  testCase.TC04_AccountOverview - Logged in before accessing Account Overview
+2025-09-28 11:04:07.954 [main] INFO  testCase.TC04_AccountOverview - Currently available accounts: 2
+2025-09-28 11:04:08.024 [main] INFO  testCase.TC04_AccountOverview - Account 1: 16674
+2025-09-28 11:04:08.024 [main] INFO  testCase.TC04_AccountOverview - Account 2: 16785
+2025-09-28 11:04:08.024 [main] INFO  testCase.TC04_AccountOverview - Account Overview test passed
+2025-09-28 11:04:08.024 [main] INFO  testCase.TC04_AccountOverview - Finished TC_AccountOverview 
+2025-09-28 11:04:12.858 [main] INFO  testCase.TC05_Transferfund - Browser launched and Parabank site opened
+2025-09-28 11:04:12.863 [main] INFO  testCase.TC05_Transferfund - ===== Starting Transfer Funds Test =====
+2025-09-28 11:04:14.015 [main] INFO  testCase.TC05_Transferfund - Logged in successfully
+2025-09-28 11:04:14.305 [main] INFO  testCase.TC05_Transferfund - From Account: 16674, To Account: 16785
+2025-09-28 11:04:14.833 [main] INFO  pageObjects.Transferfund - Navigated to Transfer Funds page
+2025-09-28 11:04:15.042 [main] INFO  pageObjects.Transferfund - Entered transfer amount: 20
+2025-09-28 11:04:15.189 [main] INFO  pageObjects.Transferfund - Selected From Account: 16674
+2025-09-28 11:04:15.345 [main] INFO  pageObjects.Transferfund - Selected To Account: 16785
+2025-09-28 11:04:15.451 [main] INFO  pageObjects.Transferfund - Clicked Transfer button
+2025-09-28 11:04:16.018 [main] INFO  pageObjects.Transferfund - Transfer success message displayed: true
+2025-09-28 11:04:16.018 [main] INFO  testCase.TC05_Transferfund - Transfer Funds Test Passed 
+2025-09-28 11:04:20.871 [main] INFO  testCase.TC06_Billpayment - Browser launched and Parabank site opened
+2025-09-28 11:04:20.881 [main] INFO  testCase.TC06_Billpayment - ===== Starting Bill Payment Test =====
+2025-09-28 11:04:22.220 [main] INFO  testCase.TC06_Billpayment - Logged in successfully
+2025-09-28 11:04:22.513 [main] INFO  testCase.TC06_Billpayment - Pay from Account: 16674
+2025-09-28 11:04:23.418 [main] INFO  pageObjects.BillPay - Navigated to Bill Pay page
+2025-09-28 11:04:23.654 [main] INFO  pageObjects.BillPay - Entered Payee Name: Ganesh U
+2025-09-28 11:04:23.807 [main] INFO  pageObjects.BillPay - Entered Address: 123 Street
+2025-09-28 11:04:23.915 [main] INFO  pageObjects.BillPay - Entered City: CityName
+2025-09-28 11:04:24.193 [main] INFO  pageObjects.BillPay - Entered State: StateName
+2025-09-28 11:04:24.308 [main] INFO  pageObjects.BillPay - Entered Zip: 123456
+2025-09-28 11:04:24.454 [main] INFO  pageObjects.BillPay - Entered Phone: 8547505599
+2025-09-28 11:04:24.578 [main] INFO  pageObjects.BillPay - Entered Account Number: 12345
+2025-09-28 11:04:24.733 [main] INFO  pageObjects.BillPay - Entered Verify Account: 12345
+2025-09-28 11:04:24.879 [main] INFO  pageObjects.BillPay - Entered Amount: 50
+2025-09-28 11:04:24.993 [main] INFO  pageObjects.BillPay - Selected From Account: 16674
+2025-09-28 11:04:24.993 [main] INFO  pageObjects.BillPay - Filled Bill Pay form
+2025-09-28 11:04:25.082 [main] INFO  pageObjects.BillPay - Clicked Send Payment button
+2025-09-28 11:04:25.635 [main] INFO  pageObjects.BillPay - Bill Payment completed successfully
+2025-09-28 11:04:25.635 [main] INFO  testCase.TC06_Billpayment - Bill Payment Test Passed
+2025-09-28 11:04:30.487 [main] INFO  testCase.TC07_FindTransactions - Browser launched and Parabank site opened
+2025-09-28 11:04:30.487 [main] INFO  testCase.TC07_FindTransactions - ===== Starting Find Transactions Test =====
+2025-09-28 11:04:31.735 [main] INFO  testCase.TC07_FindTransactions - Logged in successfully
+2025-09-28 11:04:32.268 [main] INFO  testCase.TC07_FindTransactions - Navigated to Find Transactions page
+2025-09-28 11:04:32.451 [main] INFO  testCase.TC07_FindTransactions - Selected account: 16674
+2025-09-28 11:04:32.659 [main] INFO  testCase.TC07_FindTransactions - Searched transaction by amount: 20
+2025-09-28 11:04:48.427 [main] INFO  testCase.TC08_Updatecontact - Browser launched and Parabank site opened
+2025-09-28 11:04:48.431 [main] INFO  testCase.TC08_Updatecontact - ===== Starting Update Contact Info Test =====
+2025-09-28 11:04:49.793 [main] INFO  testCase.TC08_Updatecontact - Logged in successfully
+2025-09-28 11:04:50.434 [main] INFO  testCase.TC08_Updatecontact - Navigated to Update Contact Info page
+2025-09-28 11:04:51.466 [main] INFO  testCase.TC08_Updatecontact - Entered new contact info
+2025-09-28 11:04:51.539 [main] INFO  testCase.TC08_Updatecontact - Clicked Update Profile
+2025-09-28 11:04:51.547 [main] INFO  testCase.TC08_Updatecontact - Update Contact Info Test Passed
+2025-09-28 11:04:51.547 [main] INFO  testCase.TC08_Updatecontact - ===== Update Contact Info Test Completed =====
+2025-09-28 11:04:56.907 [main] INFO  testCase.TC09_requestloan - Browser launched and Parabank site opened
+2025-09-28 11:04:56.911 [main] INFO  testCase.TC09_requestloan - ===== Starting Request Loan Test =====
+2025-09-28 11:04:58.131 [main] INFO  testCase.TC09_requestloan - Logged in successfully
+2025-09-28 11:04:58.763 [main] INFO  testCase.TC09_requestloan - Navigated to Request Loan Page
+2025-09-28 11:04:59.214 [main] INFO  testCase.TC09_requestloan - Selected Account for Loan Request: 16674
+2025-09-28 11:07:49.168 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-28 11:07:49.192 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-28 11:07:49.780 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-28 11:07:50.612 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1759037869782
+2025-09-28 11:07:51.115 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-28 11:07:51.149 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-28 11:07:51.149 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-28 11:07:56.138 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-28 11:07:56.149 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-28 11:07:57.684 [main] INFO  testCase.TC02_login - Login attempted with username: user1759037869782
+2025-09-28 11:07:57.684 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-28 11:07:57.684 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-28 11:08:02.852 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-28 11:08:02.855 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-28 11:08:03.946 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-28 11:08:04.456 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-28 11:08:04.456 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-28 11:08:04.628 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-28 11:08:04.628 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-28 11:08:04.856 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 16896
+2025-09-28 11:08:04.856 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-28 11:08:04.930 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-28 11:08:04.930 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-28 11:08:05.551 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 17007
+2025-09-28 11:08:05.551 [main] INFO  testCase.TC03_OpenNewAccount - Stored account in Testdata: account1=17007, account2=null
+2025-09-28 11:08:05.551 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-28 11:08:10.613 [main] INFO  testCase.TC04_AccountOverview - Browser launched and Parabank site opened
+2025-09-28 11:08:10.619 [main] INFO  testCase.TC04_AccountOverview -  Starting TC04_AccountOverview
+2025-09-28 11:08:11.905 [main] INFO  testCase.TC04_AccountOverview - Logged in before accessing Account Overview
+2025-09-28 11:08:12.313 [main] INFO  testCase.TC04_AccountOverview - Currently available accounts: 2
+2025-09-28 11:08:12.401 [main] INFO  testCase.TC04_AccountOverview - Account 1: 16896
+2025-09-28 11:08:12.401 [main] INFO  testCase.TC04_AccountOverview - Account 2: 17007
+2025-09-28 11:08:12.401 [main] INFO  testCase.TC04_AccountOverview - Account Overview test passed
+2025-09-28 11:08:12.401 [main] INFO  testCase.TC04_AccountOverview - Finished TC_AccountOverview 
+2025-09-28 11:08:18.572 [main] INFO  testCase.TC05_Transferfund - Browser launched and Parabank site opened
+2025-09-28 11:08:18.585 [main] INFO  testCase.TC05_Transferfund - ===== Starting Transfer Funds Test =====
+2025-09-28 11:08:19.792 [main] INFO  testCase.TC05_Transferfund - Logged in successfully
+2025-09-28 11:08:20.083 [main] INFO  testCase.TC05_Transferfund - From Account: 16896, To Account: 17007
+2025-09-28 11:08:20.591 [main] INFO  pageObjects.Transferfund - Navigated to Transfer Funds page
+2025-09-28 11:08:20.823 [main] INFO  pageObjects.Transferfund - Entered transfer amount: 20
+2025-09-28 11:08:20.987 [main] INFO  pageObjects.Transferfund - Selected From Account: 16896
+2025-09-28 11:08:21.109 [main] INFO  pageObjects.Transferfund - Selected To Account: 17007
+2025-09-28 11:08:21.235 [main] INFO  pageObjects.Transferfund - Clicked Transfer button
+2025-09-28 11:08:21.795 [main] INFO  pageObjects.Transferfund - Transfer success message displayed: true
+2025-09-28 11:08:21.795 [main] INFO  testCase.TC05_Transferfund - Transfer Funds Test Passed 
+2025-09-28 11:08:27.064 [main] INFO  testCase.TC06_Billpayment - Browser launched and Parabank site opened
+2025-09-28 11:08:27.068 [main] INFO  testCase.TC06_Billpayment - ===== Starting Bill Payment Test =====
+2025-09-28 11:08:28.310 [main] INFO  testCase.TC06_Billpayment - Logged in successfully
+2025-09-28 11:08:28.690 [main] INFO  testCase.TC06_Billpayment - Pay from Account: 16896
+2025-09-28 11:08:29.398 [main] INFO  pageObjects.BillPay - Navigated to Bill Pay page
+2025-09-28 11:08:29.587 [main] INFO  pageObjects.BillPay - Entered Payee Name: Ganesh U
+2025-09-28 11:08:29.764 [main] INFO  pageObjects.BillPay - Entered Address: 123 Street
+2025-09-28 11:08:29.897 [main] INFO  pageObjects.BillPay - Entered City: CityName
+2025-09-28 11:08:30.044 [main] INFO  pageObjects.BillPay - Entered State: StateName
+2025-09-28 11:08:30.168 [main] INFO  pageObjects.BillPay - Entered Zip: 123456
+2025-09-28 11:08:30.308 [main] INFO  pageObjects.BillPay - Entered Phone: 8547505599
+2025-09-28 11:08:30.487 [main] INFO  pageObjects.BillPay - Entered Account Number: 12345
+2025-09-28 11:08:30.637 [main] INFO  pageObjects.BillPay - Entered Verify Account: 12345
+2025-09-28 11:08:30.769 [main] INFO  pageObjects.BillPay - Entered Amount: 50
+2025-09-28 11:08:30.851 [main] INFO  pageObjects.BillPay - Selected From Account: 16896
+2025-09-28 11:08:30.851 [main] INFO  pageObjects.BillPay - Filled Bill Pay form
+2025-09-28 11:08:30.935 [main] INFO  pageObjects.BillPay - Clicked Send Payment button
+2025-09-28 11:08:31.494 [main] INFO  pageObjects.BillPay - Bill Payment completed successfully
+2025-09-28 11:08:31.494 [main] INFO  testCase.TC06_Billpayment - Bill Payment Test Passed
+2025-09-28 11:08:37.338 [main] INFO  testCase.TC07_FindTransactions - Browser launched and Parabank site opened
+2025-09-28 11:08:37.354 [main] INFO  testCase.TC07_FindTransactions - ===== Starting Find Transactions Test =====
+2025-09-28 11:08:38.836 [main] INFO  testCase.TC07_FindTransactions - Logged in successfully
+2025-09-28 11:08:39.439 [main] INFO  testCase.TC07_FindTransactions - Navigated to Find Transactions page
+2025-09-28 11:08:39.642 [main] INFO  testCase.TC07_FindTransactions - Selected account: 16896
+2025-09-28 11:08:39.886 [main] INFO  testCase.TC07_FindTransactions - Searched transaction by amount: 20
+2025-09-28 11:08:55.535 [main] INFO  testCase.TC08_Updatecontact - Browser launched and Parabank site opened
+2025-09-28 11:08:55.541 [main] INFO  testCase.TC08_Updatecontact - ===== Starting Update Contact Info Test =====
+2025-09-28 11:08:56.962 [main] INFO  testCase.TC08_Updatecontact - Logged in successfully
+2025-09-28 11:08:57.471 [main] INFO  testCase.TC08_Updatecontact - Navigated to Update Contact Info page
+2025-09-28 11:08:58.958 [main] INFO  testCase.TC08_Updatecontact - Entered new contact info
+2025-09-28 11:08:59.065 [main] INFO  testCase.TC08_Updatecontact - Clicked Update Profile
+2025-09-28 11:08:59.082 [main] INFO  testCase.TC08_Updatecontact - Update Contact Info Test Passed
+2025-09-28 11:08:59.082 [main] INFO  testCase.TC08_Updatecontact - ===== Update Contact Info Test Completed =====
+2025-09-28 11:09:04.535 [main] INFO  testCase.TC09_requestloan - Browser launched and Parabank site opened
+2025-09-28 11:09:04.548 [main] INFO  testCase.TC09_requestloan - ===== Starting Request Loan Test =====
+2025-09-28 11:09:05.951 [main] INFO  testCase.TC09_requestloan - Logged in successfully
+2025-09-28 11:09:06.647 [main] INFO  testCase.TC09_requestloan - Navigated to Request Loan Page
+2025-09-28 11:09:07.180 [main] INFO  testCase.TC09_requestloan - Selected Account for Loan Request: 16896
+2025-09-28 11:09:07.318 [main] INFO  testCase.TC09_requestloan - Loan Request Submitted
+2025-09-28 11:09:07.900 [main] INFO  testCase.TC09_requestloan - Loan Status: Approved
+2025-09-28 11:09:07.949 [main] INFO  testCase.TC09_requestloan - Loan Approved → New Account: 17118
+2025-09-28 11:09:07.949 [main] INFO  testCase.TC09_requestloan - ===== Request Loan Test Completed =====
+2025-09-28 11:21:59.746 [main] INFO  testCase.TC01_Register - Browser launched and Parabank site opened
+2025-09-28 11:21:59.770 [main] INFO  testCase.TC01_Register - ===== Starting Registration Test =====
+2025-09-28 11:22:00.380 [main] INFO  testCase.TC01_Register - Clicked Register link
+2025-09-28 11:22:01.596 [main] INFO  testCase.TC01_Register - Filled registration form with username: user1759038720388
+2025-09-28 11:22:02.121 [main] INFO  testCase.TC01_Register - Clicked Register button
+2025-09-28 11:22:02.145 [main] INFO  testCase.TC01_Register - Registration successful, Welcome message found
+2025-09-28 11:22:02.145 [main] INFO  testCase.TC01_Register - ===== Registration Test Completed =====
+2025-09-28 11:22:06.687 [main] INFO  testCase.TC02_login - Browser launched and Parabank site opened
+2025-09-28 11:22:06.692 [main] INFO  testCase.TC02_login - ===== Starting Login Test =====
+2025-09-28 11:22:08.507 [main] INFO  testCase.TC02_login - Login attempted with username: user1759038720388
+2025-09-28 11:22:08.507 [main] INFO  testCase.TC02_login - Login attempted with username: Test@123
+2025-09-28 11:22:08.507 [main] INFO  testCase.TC02_login - ===== Login Test Completed =====
+2025-09-28 11:22:12.537 [main] INFO  testCase.TC03_OpenNewAccount - Browser launched and Parabank site opened
+2025-09-28 11:22:12.545 [main] INFO  testCase.TC03_OpenNewAccount - ===== Starting Open New Account Test =====
+2025-09-28 11:22:13.904 [main] INFO  testCase.TC03_OpenNewAccount - Logged in before opening new account
+2025-09-28 11:22:15.518 [main] INFO  pageObjects.OpenNewAccount - Navigated to 'Open New Account' page
+2025-09-28 11:22:15.518 [main] INFO  testCase.TC03_OpenNewAccount - Navigated to Open New Account page
+2025-09-28 11:22:15.649 [main] INFO  pageObjects.OpenNewAccount - Selected Account Type: CHECKING
+2025-09-28 11:22:15.649 [main] INFO  testCase.TC03_OpenNewAccount - Selected account type: CHECKING
+2025-09-28 11:22:15.902 [main] INFO  pageObjects.OpenNewAccount - Selected first available funding account: 17451
+2025-09-28 11:22:15.902 [main] INFO  testCase.TC03_OpenNewAccount -  
+2025-09-28 11:22:16.009 [main] INFO  pageObjects.OpenNewAccount - Clicked 'Open New Account' button
+2025-09-28 11:22:16.009 [main] INFO  testCase.TC03_OpenNewAccount - Clicked Open New Account button
+2025-09-28 11:22:16.594 [main] INFO  pageObjects.OpenNewAccount - New Account Number generated: 17562
+2025-09-28 11:22:16.594 [main] INFO  testCase.TC03_OpenNewAccount - Stored account in Testdata: account1=17562, account2=null
+2025-09-28 11:22:16.594 [main] INFO  testCase.TC03_OpenNewAccount - ===== Open New Account Test Finished Successfully =====
+2025-09-28 11:22:21.551 [main] INFO  testCase.TC04_AccountOverview - Browser launched and Parabank site opened
+2025-09-28 11:22:21.562 [main] INFO  testCase.TC04_AccountOverview -  Starting TC04_AccountOverview
+2025-09-28 11:22:22.770 [main] INFO  testCase.TC04_AccountOverview - Logged in before accessing Account Overview
+2025-09-28 11:22:23.018 [main] INFO  testCase.TC04_AccountOverview - Currently available accounts: 2
+2025-09-28 11:22:23.091 [main] INFO  testCase.TC04_AccountOverview - Account 1: 17451
+2025-09-28 11:22:23.091 [main] INFO  testCase.TC04_AccountOverview - Account 2: 17562
+2025-09-28 11:22:23.091 [main] INFO  testCase.TC04_AccountOverview - Account Overview test passed
+2025-09-28 11:22:23.091 [main] INFO  testCase.TC04_AccountOverview - Finished TC_AccountOverview 
+2025-09-28 11:22:27.968 [main] INFO  testCase.TC05_Transferfund - Browser launched and Parabank site opened
+2025-09-28 11:22:27.972 [main] INFO  testCase.TC05_Transferfund - ===== Starting Transfer Funds Test =====
+2025-09-28 11:22:28.234 [main] INFO  testCase.TC05_Transferfund - Logged in successfully
+2025-09-28 11:22:29.357 [main] INFO  testCase.TC05_Transferfund - From Account: 17451, To Account: 17562
+2025-09-28 11:22:29.917 [main] INFO  pageObjects.Transferfund - Navigated to Transfer Funds page
+2025-09-28 11:22:30.154 [main] INFO  pageObjects.Transferfund - Entered transfer amount: 20
+2025-09-28 11:22:30.305 [main] INFO  pageObjects.Transferfund - Selected From Account: 17451
+2025-09-28 11:22:30.432 [main] INFO  pageObjects.Transferfund - Selected To Account: 17562
+2025-09-28 11:22:30.547 [main] INFO  pageObjects.Transferfund - Clicked Transfer button
+2025-09-28 11:22:31.124 [main] INFO  pageObjects.Transferfund - Transfer success message displayed: true
+2025-09-28 11:22:31.124 [main] INFO  testCase.TC05_Transferfund - Transfer Funds Test Passed 
+2025-09-28 11:22:36.134 [main] INFO  testCase.TC06_Billpayment - Browser launched and Parabank site opened
+2025-09-28 11:22:36.142 [main] INFO  testCase.TC06_Billpayment - ===== Starting Bill Payment Test =====
+2025-09-28 11:22:37.583 [main] INFO  testCase.TC06_Billpayment - Logged in successfully
+2025-09-28 11:22:37.876 [main] INFO  testCase.TC06_Billpayment - Pay from Account: 17451
+2025-09-28 11:22:38.564 [main] INFO  pageObjects.BillPay - Navigated to Bill Pay page
+2025-09-28 11:22:38.717 [main] INFO  pageObjects.BillPay - Entered Payee Name: Ganesh U
+2025-09-28 11:22:38.846 [main] INFO  pageObjects.BillPay - Entered Address: 123 Street
+2025-09-28 11:22:38.961 [main] INFO  pageObjects.BillPay - Entered City: CityName
+2025-09-28 11:22:39.067 [main] INFO  pageObjects.BillPay - Entered State: StateName
+2025-09-28 11:22:39.167 [main] INFO  pageObjects.BillPay - Entered Zip: 123456
+2025-09-28 11:22:39.303 [main] INFO  pageObjects.BillPay - Entered Phone: 8547505599
+2025-09-28 11:22:39.428 [main] INFO  pageObjects.BillPay - Entered Account Number: 12345
+2025-09-28 11:22:39.581 [main] INFO  pageObjects.BillPay - Entered Verify Account: 12345
+2025-09-28 11:22:39.718 [main] INFO  pageObjects.BillPay - Entered Amount: 50
+2025-09-28 11:22:39.815 [main] INFO  pageObjects.BillPay - Selected From Account: 17451
+2025-09-28 11:22:39.815 [main] INFO  pageObjects.BillPay - Filled Bill Pay form
+2025-09-28 11:22:39.915 [main] INFO  pageObjects.BillPay - Clicked Send Payment button
+2025-09-28 11:22:40.462 [main] INFO  pageObjects.BillPay - Bill Payment completed successfully
+2025-09-28 11:22:40.462 [main] INFO  testCase.TC06_Billpayment - Bill Payment Test Passed
+2025-09-28 11:22:45.260 [main] INFO  testCase.TC07_FindTransactions - Browser launched and Parabank site opened
+2025-09-28 11:22:45.275 [main] INFO  testCase.TC07_FindTransactions - ===== Starting Find Transactions Test =====
+2025-09-28 11:22:46.434 [main] INFO  testCase.TC07_FindTransactions - Logged in successfully
+2025-09-28 11:22:46.900 [main] INFO  testCase.TC07_FindTransactions - Navigated to Find Transactions page
+2025-09-28 11:22:47.072 [main] INFO  testCase.TC07_FindTransactions - Selected account: 17451
+2025-09-28 11:22:47.322 [main] INFO  testCase.TC07_FindTransactions - Searched transaction by amount: 20
+2025-09-28 11:23:03.024 [main] INFO  testCase.TC08_Updatecontact - Browser launched and Parabank site opened
+2025-09-28 11:23:03.030 [main] INFO  testCase.TC08_Updatecontact - ===== Starting Update Contact Info Test =====
+2025-09-28 11:23:04.195 [main] INFO  testCase.TC08_Updatecontact - Logged in successfully
+2025-09-28 11:23:04.804 [main] INFO  testCase.TC08_Updatecontact - Navigated to Update Contact Info page
+2025-09-28 11:23:05.792 [main] INFO  testCase.TC08_Updatecontact - Entered new contact info
+2025-09-28 11:23:05.892 [main] INFO  testCase.TC08_Updatecontact - Clicked Update Profile
+2025-09-28 11:23:05.901 [main] INFO  testCase.TC08_Updatecontact - Update Contact Info Test Passed
+2025-09-28 11:23:05.901 [main] INFO  testCase.TC08_Updatecontact - ===== Update Contact Info Test Completed =====
+2025-09-28 11:23:11.369 [main] INFO  testCase.TC09_requestloan - Browser launched and Parabank site opened
+2025-09-28 11:23:11.377 [main] INFO  testCase.TC09_requestloan - ===== Starting Request Loan Test =====
+2025-09-28 11:23:12.631 [main] INFO  testCase.TC09_requestloan - Logged in successfully
+2025-09-28 11:23:13.192 [main] INFO  testCase.TC09_requestloan - Navigated to Request Loan Page
+2025-09-28 11:23:13.729 [main] INFO  testCase.TC09_requestloan - Selected Account for Loan Request: 17451
+2025-09-28 11:23:13.871 [main] INFO  testCase.TC09_requestloan - Loan Request Submitted
+2025-09-28 11:23:14.449 [main] INFO  testCase.TC09_requestloan - Loan Status: Approved
+2025-09-28 11:23:14.497 [main] INFO  testCase.TC09_requestloan - Loan Approved → New Account: 17673
+2025-09-28 11:23:14.498 [main] INFO  testCase.TC09_requestloan - ===== Request Loan Test Completed =====
+2025-09-28 11:23:20.013 [main] INFO  testCase.TC10_LogOut - Browser launched and Parabank site opened
+2025-09-28 11:23:20.016 [main] INFO  testCase.TC10_LogOut - ===== Starting Logout Test =====
+2025-09-28 11:23:21.237 [main] INFO  testCase.TC10_LogOut - Logged in successfully before logout
+2025-09-28 11:23:22.078 [main] INFO  testCase.TC10_LogOut - Clicked Logout link
+2025-09-28 11:23:22.116 [main] INFO  testCase.TC10_LogOut - Logout successful
+2025-09-28 11:23:22.400 [main] INFO  testCase.TC10_LogOut - All browser tabs closed and WebDriver session ended
+2025-09-28 11:23:22.400 [main] INFO  testCase.TC10_LogOut - ===== Logout Test Completed =====
