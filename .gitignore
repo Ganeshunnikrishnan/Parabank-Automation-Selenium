@@ -1,0 +1,29 @@
+# Maven target folder
+/target/
+
+# HTML reports and screenshots
+/reports/
+/screenshots/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
+
+# IDE files
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+/.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TestNG output folder (if any)
+/test-output/
+
+# Optional: Eclipse settings
+/.settings/
